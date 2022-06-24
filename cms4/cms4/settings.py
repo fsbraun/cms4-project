@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'djangocms_url_manager',
     'djangocms_text_ckeditor',
     'djangocms_versioning',
-    'djangocms_version_locking',
+    # 'djangocms_version_locking',
     'menus',
     'sekizai',
     'treebeard',
@@ -56,7 +56,6 @@ INSTALLED_APPS = [
     'filer',
     'easy_thumbnails',
     'djangocms_icon',
-    'djangocms_form_builder',
     'djangocms_frontend',
     'djangocms_frontend.contrib.accordion',
     'djangocms_frontend.contrib.alert',
@@ -74,6 +73,7 @@ INSTALLED_APPS = [
     'djangocms_frontend.contrib.navigation',
     'djangocms_frontend.contrib.tabs',
     'djangocms_frontend.contrib.utilities',
+    'djangocms_form_builder',
 ]
 
 MIDDLEWARE = [
